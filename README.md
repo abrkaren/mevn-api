@@ -66,5 +66,7 @@ backend
 
 frontend
 * In vue.js i was not able to set up proxy configs
+* Did not manage to move all requests to a separate service
 
+* For run project enter` npm run dev *
 ------------------------------------------------------------------------
