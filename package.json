@@ -1,0 +1,25 @@
+{
+  "name": "account-management-backend-level-3",
+  "version": "0.0.1",
+  "main": "app.js",
+  "scripts": {
+    "build": "echo build your app here",
+    "start": "node app",
+    "server": "nodemon app",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "mongoose": "^5.7.4",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "nodemon": "^2.0.2",
+    "cypress": "^5.4.0"
+  }
+}
